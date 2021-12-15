@@ -1,0 +1,144 @@
+body{font-family: Helvetica,sans-serif;}
+*{margin: 0;padding: 0;}
+#caixote{ width: 1200px;
+      /*background-color:blue;*/
+     margin: auto;}
+
+header nav ul{ 
+     border-bottom-style:solid; 
+     border-bottom-width:2px; 
+     border-bottom-color:gray;
+     border-top-style:solid; 
+     border-top-width:2px; 
+     border-top-color:gray;
+     border-left-color:red;}
+
+
+header nav ul li{ 
+            display: inline-block;
+            margin-right: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;}
+
+
+header nav ul li a{ 
+            text-decoration: none;
+            border-left-style:solid; 
+            border-left-width:1px; 
+            border-left-color:gray;
+            padding:10px;}
+
+
+#secoes{    width: 600px;
+            height: 700px;
+            /*background-color:#e3e3e3;*/
+           float: left;}
+
+#artigoss{    width: 600px;
+            height: 700px;
+            /*background-color:#CCCCCC;*/
+            float: right;}
+
+#DOCS{    width: 600px;
+            height: 500px;
+            background-color:#e3e3e3;;
+            overflow: auto;
+          /* float: left;*/}
+
+
+#artigoss ul {list-style: none;
+     padding: 10px;}
+
+#artigoss ul li{margin-top: 25px;
+   }
+
+#artigoss ul li a{text-decoration: none;
+                   color: RED;
+                   font-size: 16;
+                padding: 10px; }
+
+h3{ font-size: 12pt;
+            padding:10px 15px
+            }
+
+p{ font-size: 12pt;
+            padding:10px 10px;
+            text-align: justify;
+            }
+
+    footer{
+        clear: both;
+        
+    }
+     
+
+   #rodape{
+    width:1349px;
+    background-color:black;
+    height: 250px;
+    }
+
+ #desi{
+    width:1349px;
+    background-color:#CCCCCC;
+    height: 50px;
+    
+    }
+
+    #desi ul {
+    display:flex;
+    list-style: none;
+    padding: 15px 20px 20px 150px;     
+    }
+
+    #desi ul li{margin-right: 100px;}
+
+
+   #finf1{float: left;
+    width:650px;
+    /* background-color:rosybrown;*/
+    height: 250px;
+      } 
+
+    #IMA{float: left;
+    width:325px;
+    height: 250px;
+   /*  background-color:RED;*/
+      } 
+
+   #IMA p{  padding: 75px 0px 0px 60px;}
+
+    #LIS{float: left;
+    width:325px;
+    /*background-color:blue;*/
+    height: 250px;
+      } 
+
+
+     #LIS ul {list-style: none;
+     padding: 40px;}
+
+    #LIS ul li{margin-top: 25px;
+   }
+
+    #LIS ul li a{text-decoration: none;
+                   color: white;
+                   font-size: 16;
+                padding: 10px; }
+
+
+
+
+    #imagns{float:right;
+    width:250px;
+    height: 250px;
+   /*background-color:yellow;*/
+      } 
+
+
+    #imagns ul { display:inline;
+     list-style: none;
+    padding: 40px}
+
+    #imagns ul li{margin-left: 150px;
+        margin-top:25px;}

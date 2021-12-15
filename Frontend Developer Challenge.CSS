@@ -1,0 +1,163 @@
+body{font-family: Helvetica,sans-serif;}
+*{margin: 0;padding: 0;}
+#caixa{ width: 1200px;
+      /*background-color:blue;*/
+     margin: auto;}
+
+header nav ul{ 
+     border-bottom-style:solid; 
+     border-bottom-width:2px; 
+     border-bottom-color:gray;
+     border-top-style:solid; 
+     border-top-width:2px; 
+     border-top-color:gray;
+     border-left-color:red;}
+
+
+header nav ul li{ 
+            display: inline-block;
+            margin-right: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;}
+
+
+header nav ul li a{ 
+            text-decoration: none;
+            border-left-style:solid; 
+            border-left-width:1px; 
+            border-left-color:gray;
+            padding:10px;}
+
+
+#caixa1{    width: 250px;
+            height: 2000px;
+            /*background-color:#e3e3e3;*/
+           float: left;}
+
+#caixa2{    width: 450px;
+            height: 650px;
+            /*background-color:#CCCCCC;*/
+            position:absolute; 
+    top:220px; left:350px; }
+
+#caixa3{    width: 450px;
+            height:2000px;
+           /* background-color:#CCCC;*/
+       float: right;}
+
+#caixa4{    width: 450px;
+            height: 500px;
+            /*background-color:#CCD;*/
+            position:absolute; 
+           top:880px; left:350px; }
+
+#caixa5{    width: 450px;
+            height: 500px;
+            /*background-color:#CCDDDD;*/
+            position:absolute; 
+           top:1400px; left:350px; }
+
+
+
+
+
+       #caixa1 nav ul li{ 
+           margin-top: 10px;
+        margin-bottom: 10px;
+      display: flex;}
+
+#caixa1 nav ul li a{ 
+            text-decoration: none;
+            
+       }
+
+ h2{ font-size: 14pt;
+            padding:17px 15px
+            }
+
+h3{ font-size: 12pt;
+            padding:10px 15px
+            }
+h4{ font-size: 12pt;
+            padding:10px 15px
+            }
+
+p{ font-size: 10pt;
+            padding:10px 10px;
+            text-align: justify;
+            }
+
+
+    
+a {padding:10px 10px;}
+
+    footer{
+        clear: both;
+        
+    }
+     
+
+   #rodape{
+    width:1349px;
+    background-color:black;
+    height: 250px;
+    }
+
+ #desi{
+    width:1349px;
+    background-color:#CCCCCC;
+    height: 50px;
+    
+    }
+
+    #desi ul {
+    display:flex;
+    list-style: none;
+    padding: 15px 20px 20px 150px;     
+    }
+
+    #desi ul li{margin-right: 100px;}
+
+
+    #IMA{float: left;
+    width:325px;
+    height: 250px;
+   /*  background-color:RED;*/
+      } 
+
+   #IMA p{  padding: 75px 0px 0px 60px;}
+
+    #LIS{float: left;
+    width:325px;
+    /*background-color:blue;*/
+    height: 250px;
+      } 
+
+
+     #LIS ul {list-style: none;
+     padding: 40px;}
+
+    #LIS ul li{margin-top: 25px;
+   }
+
+    #LIS ul li a{text-decoration: none;
+                   color: white;
+                   font-size: 16;
+                padding: 10px; }
+
+
+    #imagns{float:right;
+    width:250px;
+    height: 250px;
+   /*background-color:yellow;*/
+      } 
+
+
+    #imagns ul { display:inline;
+     list-style: none;
+    padding: 40px}
+
+    #imagns ul li{margin-left: 150px;
+        margin-top:25px;}
+
+   
