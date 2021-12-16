@@ -160,4 +160,8 @@ a {padding:10px 10px;}
     #imagns ul li{margin-left: 150px;
         margin-top:25px;}
 
+        #header-image{
+            width: -webkit-fill-available;
+           }
+
    
